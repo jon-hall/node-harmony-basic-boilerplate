@@ -1,0 +1,30 @@
+{
+  "name": "node-harmony-basic-boilerplate",
+  "version": "0.0.1",
+  "description": "An absolutely minimal boilerplate for making node harmony (ES6) apps with suspend, gulp, and jasmine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No test script setup\" && exit 1",
+    "install": "node ./install.js && cd \"../..\" && del \"./install.js\" && rmdir /s /q \"./node_modules\" && npm set production false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jon-hall/node-harmony-basic-boilerplate"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "boilerplate",
+    "basic",
+    "barebones",
+    "empty"
+  ],
+  "author": "Jon Hall <jon_hall@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.20.1",
+    "globby": "^2.1.0",
+    "inquirer": "^0.8.5",
+    "underscore": "^1.8.3"
+  }
+}
