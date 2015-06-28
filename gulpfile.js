@@ -6,11 +6,12 @@ var isWatch = false;
 
 gulp.task('dev', ['test'], function() {
     isWatch = true;
-    gulp.watch(['./src/*.js', './test/*.js'], ['test']);
+    gulp.watch(['./src/*.js', './src/**/*.js', './test/*.js',
+        './test/**/*.js'], ['test']);
 });
 
 gulp.task('test', function () {
-    return gulp.src('./test/*.js')
+    return gulp.src(['./test/*spec.js', './test/**/*spec.js'])
         .pipe(plumber({ errorHandler: handleError }))
         .pipe(jasmine());
 });
