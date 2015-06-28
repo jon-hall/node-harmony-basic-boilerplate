@@ -1,6 +1,6 @@
 {
   "name": "node-harmony-basic-boilerplate",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "An absolutely minimal boilerplate for making node harmony (ES6) apps with suspend, gulp, and jasmine.",
   "main": "index.js",
   "scripts": {
