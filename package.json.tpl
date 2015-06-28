@@ -20,7 +20,8 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jasmine": "^2.0.1",
-    "gulp-plumber": "^1.0.1"
+    "gulp-plumber": "^1.0.1",
+    "is-generator": "^1.0.2"
   },
   "dependencies": {
     "harmonize": "^1.4.2",
