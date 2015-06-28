@@ -19,7 +19,8 @@
   "license": "<%= license %>",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-jasmine": "^2.0.1"
+    "gulp-jasmine": "^2.0.1",
+    "gulp-plumber": "^1.0.1"
   },
   "dependencies": {
     "harmonize": "^1.4.2",
