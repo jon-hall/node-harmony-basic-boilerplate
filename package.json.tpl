@@ -5,7 +5,8 @@
   "main": "index.js",<% if(cli) {%>
   "bin": "cli.js",<% } %>
   "scripts": {
-    "test": "gulp test"<% if(cli) {%>,
+    "test": "gulp test",
+    "debug-tests": "node-debug --nodejs --harmony --nodejs --harmony-proxies ./node_modules/gulp/bin/gulp.js test"<% if(cli) {%>,
     "test-cli": "node cli.js"<% } %>
   },
   <% if(repo) { %>"repository": {

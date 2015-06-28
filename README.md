@@ -24,3 +24,10 @@ To watch for file changes and continuously run the tests.
 ```sh
 $ gulp dev
 ```
+
+Debug your tests with [node-inspector](https://github.com/node-inspector/node-inspector) using:
+> You must already have node-inspector globally installed for this to work!
+
+```sh
+$ npm run debug-tests
+```
