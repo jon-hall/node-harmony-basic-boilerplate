@@ -1,4 +1,4 @@
-var app = require('../src/app'),
+var app = require('../src/app');
 // Make sure this is called before the first spec using a generator for it/fit/beforeEach/afterEach
 require('./util/jasmine-generator-patch');
 
